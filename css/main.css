@@ -1,6 +1,17 @@
 * {
   font-family: "Parkinsans", serif;
 }
+
+/* HEADER */
+
+#logo {
+  font-weight: 600;
+  font-size: 1.2rem;
+  border: 2px solid black;
+  display: inline;
+  padding: 5px;
+}
+
 ul {
   list-style: none;
   padding-left: 0;
@@ -11,4 +22,12 @@ a {
 
 .main-img {
   width: 30%;
+}
+
+/* FOOTER */
+
+footer {
+  margin-top: 2rem;
+  border-top: 2px solid black;
+  display: inline-flex;
 }
