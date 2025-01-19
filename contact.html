@@ -24,20 +24,19 @@
   </header>
   <main>
     <p>Please use the following contact form to place inquiries</p>
-    <!-- Following 13 lines were taken from
-    https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form -->
-    <form action="" method="get" class="form-example">
-      <div class="form-example">
-        <label for="name">Your name: </label>
-        <input type="text" name="name" id="name" required />
-      </div>
-      <div class="form-example">
-        <label for="email">Your email: </label>
-        <input type="email" name="email" id="email" required />
-      </div>
-      <div class="form-example">
+
+    <form>
+      <section>
+        <input type="text" value="Your Name" />
+        <input type="text" value="Your Email" />
+      </section>
+      <!-- Textarea code adapted from https://www.freecodecamp.org/news/html-textarea-how-to-add-text-box-to-your-website/-->
+      <textarea rows="9" cols="33">
+Your message
+      </textarea>
+      <section>
         <button>Send</button>
-      </div>
+      </section>
     </form>
   </main>
   <body></body>
