@@ -5,6 +5,11 @@
 
 /* HEADER */
 
+header {
+  display: flex;
+  align-items: center;
+}
+
 #logo {
   font-weight: 600;
   font-size: 2.9rem;
@@ -14,8 +19,14 @@
 }
 
 ul {
+  display: flex;
   list-style: none;
   padding-left: 0;
+}
+
+li {
+  margin-left: 5rem;
+  font-size: 1.5rem;
 }
 a {
   color: black;
