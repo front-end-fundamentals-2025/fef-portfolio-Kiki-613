@@ -32,8 +32,25 @@ a {
   color: black;
 }
 
+/*MAIN*/
+
 .main-img {
   width: 30%;
+}
+
+/* PORTFOLIO SECTION */
+
+.portfolio-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+figure {
+  margin-left: 0;
+}
+
+.portfolio-image {
+  width: 80%;
 }
 
 /* FOOTER */
