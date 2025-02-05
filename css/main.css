@@ -56,6 +56,29 @@ a {
 .main-img {
   width: 30%;
 }
+div {
+  background-color: rgb(26, 98, 26);
+  width: 130px;
+  height: 50px;
+  border-radius: 6%;
+  border: none;
+  padding: 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  animation-name: zoom;
+  animation-duration: 5s;
+}
+
+@keyframes zoom {
+  25% {
+    transform: scale(1.1);
+  }
+  70% {
+    transform: scale(1);
+  }
+}
 
 /* PORTFOLIO SECTION */
 
