@@ -55,7 +55,26 @@ a {
 
 .main-img {
   width: 30%;
+  filter: blur(0);
+  animation-name: blur;
+  animation-duration: 3s;
 }
+
+@keyframes blur {
+  0% {
+    filter: blur(10px);
+  }
+  25% {
+    filter: blur(7px);
+  }
+  50% {
+    filter: blur(4px);
+  }
+  100% {
+    filter: blur(0);
+  }
+}
+
 div {
   background-color: rgb(26, 98, 26);
   width: 130px;
