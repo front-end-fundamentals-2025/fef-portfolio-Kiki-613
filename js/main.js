@@ -3,14 +3,14 @@ const greyimages = document.querySelectorAll(
 );
 
 // The code on lines 9 and 14 was inspired by this video on hover effect: https://www.youtube.com/watch?v=1xEfqgElMsY
-// the code on lines 10 and 14 - the greyscale effect - was inspired by this video: https://www.youtube.com/watch?v=KTcxxpToQBc
+// the code on lines 8, 10 and 14 - the greyscale effect - was inspired by this video: https://www.youtube.com/watch?v=KTcxxpToQBc
 // Loop through all selected images
 greyimages.forEach(function (greyimage) {
   greyimage.addEventListener("mouseenter", function () {
-    greyimage.style.filter = "grayscale(0%)"; // Remove greyscale on hover
+    greyimage.style.filter = "grayscale(0%)";
   });
 
   greyimage.addEventListener("mouseleave", function () {
-    greyimage.style.filter = "grayscale(100%)"; // Set greyscale back when hover ends
+    greyimage.style.filter = "grayscale(100%)";
   });
 });
